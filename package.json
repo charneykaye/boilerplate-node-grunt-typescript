@@ -1,0 +1,42 @@
+{
+  "name": "typescript-demo",
+  "title": "TypeScript Demo",
+  "description": "Using Grunt to compile TypeScript to ECMA5.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/outrightmental/typescript-demo",
+  "author": {
+    "name": "Outright Mental Inc.",
+    "email": "hello@outrightmental.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/outrightmental/typescript-demo"
+  },
+  "bugs": {
+    "url": "https://github.com/outrightmental/typescript-demo/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/outrightmental/typescript-demo/blob/master/LICENSE.txt"
+    }
+  ],
+  "main": "build/index.html",
+  "engines": {
+    "node": ">=0.8"
+  },
+  "scripts": {
+    "test": "grunt --verbose"
+  },
+  "devDependencies": {
+    "grunt-cli": "~0.1.7",
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.0",
+	"grunt-contrib-htmlmin": "~0.1.0",
+    "grunt-contrib-copy": "~0.4.0",
+    "grunt-contrib-qunit": "~0.2.0",
+	"grunt-contrib-watch": "~0.4.0",
+	"grunt-typescript": "~0.1.0"
+  },
+  "keywords": []
+}
