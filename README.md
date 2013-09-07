@@ -1,5 +1,5 @@
-template: heroku/node/grunt/express
-===================================
+boilerplate-node-grunt-typescript
+=================================
 Template for a Node application (run on Heroku) implementing Grunt build automation and the Express.js web application framework.
 
 Using Grunt to compile TypeScript to ECMA5.  Proof of Concept by Nick Kaye.
